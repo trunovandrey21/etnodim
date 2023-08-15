@@ -1,0 +1,130 @@
+
+.catalog__option{
+    position: relative;
+}
+.filtr__menu{
+    position: absolute; 
+    top: 5px;
+    right: 50px;
+    background-color: #fff;
+    width: 350px;
+    border: 1px solid #000;
+    padding:10px 0;
+}
+.filtr__block{
+    display: flex;
+    justify-content: space-between;
+}
+.filtr__block p{
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 166.2%; 
+}
+.filtr__menu_p {
+    color:#000;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 166.4%;
+}
+.filtr__menu_p::after{
+    content: "";
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    transform: rotate(225deg);
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-bottom:-3px;
+}
+.size-color__block {
+    padding-left: 10px;
+}
+.size__block p {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 166.2%; 
+}
+.color__block p{
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 166.2%; 
+}
+.rest__filtr_block {
+    padding-right: 20px;
+}
+.season__block{
+    display: flex;
+    flex-direction: column;
+}
+.season__block p{
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 166.2%; 
+}
+.season__block label{
+    color: #565656;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 166.188%;
+}
+.season__block input{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #565656;
+}
+.fabric__block{
+    display: flex;
+    flex-direction: column;
+}
+.fabric__block p{
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 166.2%; 
+}
+.fabric__block label{
+    color: #565656;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 166.188%;
+}
+.fabric__block input{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #565656;
+}
+.sleeve__block{
+    display: flex;
+    flex-direction: column;
+}
+.sleeve__block p{
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 166.2%; 
+}
+.sleeve__block label{
+    color: #565656;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 166.188%;
+}
+.sleeve__block input{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #565656;
+}

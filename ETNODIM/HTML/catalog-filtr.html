@@ -1,0 +1,480 @@
+<body>
+    <!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../STYLE/catalog.css">
+    <link rel="stylesheet" href="../STYLE/catalog-filtr.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul class="navigation__list">
+                    <li>
+                        <a href="#">Каталог</a>
+                    </li>
+                    <li>
+                        <a href="#">Знижки</a>
+                    </li>
+                    <li>
+                        <a href="#">Блог</a>
+                    </li>
+                    <li>
+                        <a href="#">Про нас</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__burger">
+                <img src="../IMG/header/burger.png" alt="burger">
+            </div>
+            <div class="main__logo">
+                <img src="../IMG/header/etnodim.svg" alt="etnodim">
+            </div>
+            <div class="information">
+                <p class="language">UA</p>
+                <div class="money">
+                    <img src="../IMG/header/Hryvnia.svg" alt="Hryvnia">
+                </div>
+                <p class="number">+380978889292</p>
+                <div class="search__block">
+                    <img src="../IMG/header/search.svg" alt="search">
+                </div>
+                <div class="basket__block">
+                    <img src="../IMG/header/basket.svg" alt="basket">
+                </div>
+            </div>
+        </header>
+        <section class="navigation__section">
+            <ul class="">
+                <li>
+                    <a href="#">
+                        Головна
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Жінкам
+                    </a>
+                </li> 
+                <li>
+                    <a class="shirts" href="#">
+                        Жіночі вишиванки
+                    </a>
+                </li>
+            </ul>
+            <ul>
+            
+            </ul>
+        </section>
+        <section class="catalog__section container">
+            <div class="catalog__block">
+            <div class="all__block">
+            <div class="catalog__option">
+            <p class="size list">Розмір</p>
+            <p class="filtr">Фільтр</p>
+                <div class="filtr__menu">
+                <p class="filtr__menu_p">Фільтр</p>
+                <div class="filtr__block">
+                <div class="size-color__block">
+                <div class="size__block">
+                    <p>Розмір</p>
+                    <label for="xxs">
+                    <input id="xxs" type="checkbox">
+                        32 | XXS (53)
+                    </label>
+                    <label for="xs">
+                    <input id="xs" type="checkbox">
+                        34 | XS (60)
+                    </label>
+                    <label for="s">
+                    <input id="s"type="checkbox">
+                        36 | S (60)
+                    </label>
+                    <label for="m">
+                    <input id="m" type="checkbox">
+                        38 | M (60)
+                    </label>
+                    <label for="l">
+                    <input id="l" type="checkbox">
+                        40 | L (60)
+                    </label>
+                    <label for="xl">
+                    <input id="xl" type="checkbox">
+                        42 | XL (58)
+                    </label>
+                    <label for="xxl">
+                    <input id="xxl" type="checkbox">
+                        46 | XXL (13)
+                    </label>
+                    <label for="xxxl">
+                    <input id="xxxl" type="checkbox">
+                        48 | XХXL (4)
+                    </label>
+                </div>
+                <div class="color__block">
+                    <p>Колір</p>
+                    <label for="white">
+                        <input id="white" type="checkbox">
+                            білий(13)
+                        </label>
+                        <label for="black">
+                        <input id="black" type="checkbox">
+                            чорний(8)
+                        </label>
+                        <label for="beige">
+                        <input id="beige"type="checkbox">
+                            бежевий(3)
+                        </label>
+                        <label for="green">
+                        <input id="green" type="checkbox">
+                            зелений(7)
+                        </label>
+                        <label for="blue">
+                        <input id="blue" type="checkbox">
+                            синій(10)
+                        </label>
+                </div>
+            </div>
+            <div class="rest__filtr_block">
+                <div class="season__block">
+                    <p>Сезон</p>
+                    <label for="easy">
+                        <input id="easy" type="checkbox">
+                            Easy collection (3)
+                    </label>
+                    <label for="all">
+                        <input id="all" type="checkbox">
+                            Усі сезони (46)
+                    </label>
+                </div>
+                <div class="fabric__block">
+                    <p>Тканина</p>
+                    <label for="lyon">
+                        <input id="lyon" type="checkbox">
+                            Льон (60)
+                    </label>
+                    <label for="satin">
+                        <input id="satin" type="checkbox">
+                            Сатин (1)
+                    </label>
+                </div>
+                <div class="sleeve__block">
+                    <p>Рукав</p>
+                    <label for="long">
+                        <input id="long" type="checkbox">
+                            Довгий рукав (49)
+                    </label>
+                    <label for="short">
+                        <input id="short" type="checkbox">
+                            3/4 рукав (11)
+                    </label>
+                </div>
+            </div>
+            </div>
+            </div>
+            <div class="sort__text">
+                
+                <div>
+                <p>Сортувати за:</p>
+                <select name="" id="">
+                <option value="new">Новинки</option>
+                <option value="brand">Бренд</option>
+                <option value="years">Рік</option>
+                </select>
+                </div>
+            </div>
+            </div>
+            <div>
+            <h1>Жіночі вишиванки</h1>
+            </div>
+            </div>
+            <div class="goods__block">
+            <div class="catalog__choise__block">
+                <div class="size__block">
+                    <label for="xxs">
+                    <input id="xxs" type="checkbox">
+                        32 | XXS (53)
+                    </label>
+                    <label for="xs">
+                    <input id="xs" type="checkbox">
+                        34 | XS (60)
+                    </label>
+                    <label for="s">
+                    <input id="s"type="checkbox">
+                        36 | S (60)
+                    </label>
+                    <label for="m">
+                    <input id="m" type="checkbox">
+                        38 | M (60)
+                    </label>
+                    <label for="l">
+                    <input id="l" type="checkbox">
+                        40 | L (60)
+                    </label>
+                    <label for="xl">
+                    <input id="xl" type="checkbox">
+                        42 | XL (58)
+                    </label>
+                    <label for="xxl">
+                    <input id="xxl" type="checkbox">
+                        46 | XXL (13)
+                    </label>
+                    <label for="xxxl">
+                    <input id="xxxl" type="checkbox">
+                        48 | XХXL (4)
+                    </label>
+                </div>
+                <div class="color__block">
+                    <p class="list">Колір</p>
+                    <label for="white">
+                        <input id="white" type="checkbox">
+                            білий
+                        </label>
+                        <label for="black">
+                        <input id="black" type="checkbox">
+                            чорний
+                        </label>
+                        <label for="beige">
+                        <input id="beige"type="checkbox">
+                            бежевий
+                        </label>
+                        <label for="green">
+                        <input id="green" type="checkbox">
+                            зелений
+                        </label>
+                        <label for="blue">
+                        <input id="blue" type="checkbox">
+                            синій
+                        </label>
+                </div>
+                <div class="season__block">
+                    <p class="list">Сезон</p>
+                </div>
+                <div class="fabric__block">
+                    <p class="list">Тканина</p>
+                </div>
+                <div class="sleeve__block">
+                    <p class="list">Рукав</p>
+                </div>
+                </div>
+                <div class="commodity__wrap">
+                <div class="commodity__list_block">
+                    <div class="commodity__card_block">
+                        <div class="commodity__photo">
+                            <img src="../IMG/commodity/image 47.png" alt="">
+                        </div>
+                        <p class="commodite__text">
+                            Вишиванка блакитного кольору з рослинним орнаментом Fialka
+                        </p>
+                        <p class="commodite__price">
+                            3 400 грн.
+                        </p>
+                    </div>
+                </div>
+                <div class="commodity__list_block">
+                    <div class="commodity__card_block">
+                        <div class="commodity__photo">
+                            <img src="../IMG/commodity/image 47.png" alt="">
+                        </div>
+                        <p class="commodite__text">
+                            Вишиванка блакитного кольору з рослинним орнаментом Fialka
+                        </p>
+                        <p class="commodite__price">
+                            3 400 грн.
+                        </p>
+                    </div>
+                </div>
+                <div class="commodity__list_block">
+                    <div class="commodity__card_block">
+                        <div class="commodity__photo">
+                            <img src="../IMG/commodity/image 47.png" alt="">
+                        </div>
+                        <p class="commodite__text">
+                            Вишиванка блакитного кольору з рослинним орнаментом Fialka
+                        </p>
+                        <p class="commodite__price">
+                            3 400 грн.
+                        </p>
+                    </div>
+                </div>
+                <div class="commodity__list_block">
+                    <div class="commodity__card_block">
+                        <div class="commodity__photo">
+                            <img src="../IMG/commodity/image 47.png" alt="">
+                        </div>
+                        <p class="commodite__text">
+                            Вишиванка блакитного кольору з рослинним орнаментом Fialka
+                        </p>
+                        <p class="commodite__price">
+                            3 400 грн.
+                        </p>
+                    </div>
+                </div>
+                <div class="commodity__list_block">
+                    <div class="commodity__card_block">
+                        <div class="commodity__photo">
+                            <img src="../IMG/commodity/image 47.png" alt="">
+                        </div>
+                        <p class="commodite__text">
+                            Вишиванка блакитного кольору з рослинним орнаментом Fialka
+                        </p>
+                        <p class="commodite__price">
+                            3 400 грн.
+                        </p>
+                    </div>
+                </div>
+                <div class="commodity__list_block">
+                    <div class="commodity__card_block">
+                        <div class="commodity__photo">
+                            <img src="../IMG/commodity/image 47.png" alt="">
+                        </div>
+                        <p class="commodite__text">
+                            Вишиванка блакитного кольору з рослинним орнаментом Fialka
+                        </p>
+                        <p class="commodite__price">
+                            3 400 грн.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+            <div class="catalog__more_page">
+            <div ></div>
+            <div class="catalog__text_block">
+            <p class="catalog__text_more">
+                Показати більше
+            </p>
+            <div class="more__photo">
+                <img src="../IMG/commodity/cil_reload.png" alt="">
+            </div>
+            </div>
+            <div class="more__page_block">
+                <ul>
+                    <li>
+                        <a href="#">
+                            1
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            2
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            3
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            ...
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            6
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Наступна
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </section>
+        <footer class="container">
+            <div class="up__block">
+                <img src="../IMG/footer/Vector 20.png" alt="up">
+            </div>
+            <div class="main__logo">
+                <img src="../IMG/header/etnodim.svg" alt="etnodim">
+            </div>
+            <div class="footer__block">
+                <div class="all">
+                <div class="me">
+                    <ul>
+                        <li>
+                            <a href="#">Про нас</a>
+                        </li>
+                        <li>
+                            <a href="#">Команда</a>
+                        </li>
+                        <li>
+                            <a href="#">Блог</a>
+                        </li>
+                        <li>
+                            <a class="red" href="#">Drabyna</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="other">
+                    <ul>
+                        <li>
+                            <a href="#">Цікава інформація</a>
+                        </li>
+                        <li>
+                            <a href="#">Вакансії</a>
+                        </li>
+                        <li>
+                            <a href="#">Доставка та оплата</a>
+                        </li>
+                        <li>
+                            <a class="red" href="#">Етнодім Маніфест</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="network__adaptive">
+                    <p class="solid">Соціальні мережі</p>
+                    <div class="network__logo">
+                        <img src="../IMG/footer/facebook.svg" alt="facebook">
+                        <img src="../IMG/footer/youtube.svg" alt="youtube">
+                        <img src="../IMG/footer/mail.svg" alt="mail">
+                        <img src="../IMG/footer/pinterest.svg" alt="pintereset">
+                        <img src="../IMG/footer/instagram.svg" alt="instagram">
+                    </div>
+                </div>
+            </div>
+            <div class="contact">
+                <ul>
+                    <li>
+                        <a class="solid" href="#">Контакти</a>
+                    </li>
+                    <li>
+                        <a href="#">+38 097 888 92 92</a>
+                    </li>
+                    <li>
+                        <a href="#">Україна, м. Київ, вул. Верхній Вал 58/28</a>
+                    </li>
+                    <li>
+                        <a href="#">пн-пт 10:00-20:00 
+                            <span class="contact_span">сб-нд 11:00-19:00</span>
+                        </a>
+                    </li>
+                </ul>
+                <p  class="network_paragraphe_adaptive">© «Етнодім» 2009-2021</p>
+            </div>
+            <div class="network">
+                <p class="solid">Соціальні мережі</p>
+                <div class="network__logo">
+                    <img src="../IMG/footer/facebook.svg" alt="facebook">
+                    <img src="../IMG/footer/youtube.svg" alt="youtube">
+                    <img src="../IMG/footer/mail.svg" alt="mail">
+                    <img src="../IMG/footer/pinterest.svg" alt="pintereset">
+                    <img src="../IMG/footer/instagram.svg" alt="instagram">
+                </div>
+                <p  class="network_paragraphe">© «Етнодім» 2009-2021</p>
+            </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
